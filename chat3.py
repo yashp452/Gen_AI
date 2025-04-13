@@ -15,9 +15,7 @@ def get_weather(city:str):
         return f"The weather in {city} is {response.text}"
     return "100 degree Celsius"
 
-def run_command(command):
-    result=os.system(command=command)
-    return result
+
 
 available_tools={
     "get_weather":{
